@@ -1,9 +1,9 @@
 package resource
 
 import (
-	"github.com/fonero-project/horizon/httpx"
-	"github.com/fonero-project/horizon/render/hal"
-	"github.com/fonero-project/horizon/txsub"
+	"github.com/fonero-project/fonero-horizon/httpx"
+	"github.com/fonero-project/fonero-horizon/render/hal"
+	"github.com/fonero-project/fonero-horizon/txsub"
 	"golang.org/x/net/context"
 )
 

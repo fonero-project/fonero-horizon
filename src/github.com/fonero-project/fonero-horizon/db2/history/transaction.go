@@ -2,8 +2,8 @@ package history
 
 import (
 	sq "github.com/Masterminds/squirrel"
-	"github.com/fonero-project/horizon/db2"
-	"github.com/fonero-project/horizon/toid"
+	"github.com/fonero-project/fonero-horizon/db2"
+	"github.com/fonero-project/fonero-horizon/toid"
 )
 
 // TransactionByHash is a query that loads a single row from the

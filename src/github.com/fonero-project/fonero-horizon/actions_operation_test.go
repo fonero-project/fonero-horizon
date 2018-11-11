@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/fonero-project/horizon/db2/history"
-	"github.com/fonero-project/horizon/resource/operations"
-	"github.com/fonero-project/horizon/test"
+	"github.com/fonero-project/fonero-horizon/db2/history"
+	"github.com/fonero-project/fonero-horizon/resource/operations"
+	"github.com/fonero-project/fonero-horizon/test"
 )
 
 func TestOperationActions_Index(t *testing.T) {

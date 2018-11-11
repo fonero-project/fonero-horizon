@@ -1,9 +1,9 @@
 package horizon
 
 import (
-	"github.com/fonero-project/horizon/db2/core"
-	"github.com/fonero-project/horizon/render/hal"
-	"github.com/fonero-project/horizon/render/sse"
+	"github.com/fonero-project/fonero-horizon/db2/core"
+	"github.com/fonero-project/fonero-horizon/render/hal"
+	"github.com/fonero-project/fonero-horizon/render/sse"
 )
 
 // DataShowAction renders a account summary found by its address.

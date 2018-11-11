@@ -5,9 +5,9 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/fonero-project/horizon/resource"
-	"github.com/fonero-project/horizon/txsub"
-	"github.com/fonero-project/horizon/txsub/sequence"
+	"github.com/fonero-project/fonero-horizon/resource"
+	"github.com/fonero-project/fonero-horizon/txsub"
+	"github.com/fonero-project/fonero-horizon/txsub/sequence"
 )
 
 func TestTransactionActions_Show(t *testing.T) {
@@ -77,7 +77,7 @@ func TestTransactionActions_Index(t *testing.T) {
 		ht.Assert.PageOf(2, w.Body)
 	}
 
-	// regression: https://github.com/fonero-project/horizon/issues/365
+	// regression: https://github.com/fonero-project/fonero-horizon/issues/365
 	w = ht.Get("/transactions?limit=200")
 	ht.Require.Equal(200, w.Code)
 	w = ht.Get("/transactions?limit=201")

@@ -4,7 +4,7 @@ import (
 	"database/sql"
 	"testing"
 
-	"github.com/fonero-project/horizon/test"
+	"github.com/fonero-project/fonero-horizon/test"
 )
 
 func TestLedgerQueries(t *testing.T) {

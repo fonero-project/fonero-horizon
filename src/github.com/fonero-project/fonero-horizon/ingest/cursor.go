@@ -3,10 +3,10 @@ package ingest
 import (
 	"time"
 
-	"github.com/fonero-project/go/meta"
-	"github.com/fonero-project/go/xdr"
-	"github.com/fonero-project/horizon/db2/core"
-	"github.com/fonero-project/horizon/toid"
+	"github.com/fonero-project/fonero-golang/meta"
+	"github.com/fonero-project/fonero-golang/xdr"
+	"github.com/fonero-project/fonero-horizon/db2/core"
+	"github.com/fonero-project/fonero-horizon/toid"
 )
 
 // BeforeAndAfter loads the ledger entry for `target` before the current

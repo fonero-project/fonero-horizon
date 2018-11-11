@@ -11,8 +11,8 @@ import (
 
 	"github.com/jmoiron/sqlx"
 	"github.com/sirupsen/logrus"
-	hlog "github.com/fonero-project/horizon/log"
-	tdb "github.com/fonero-project/horizon/test/db"
+	hlog "github.com/fonero-project/fonero-horizon/log"
+	tdb "github.com/fonero-project/fonero-horizon/test/db"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"golang.org/x/net/context"

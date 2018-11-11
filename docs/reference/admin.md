@@ -21,7 +21,7 @@ In addition to the two required prerequisites above, you may optionally install 
 
 ## Installing
 
-To install horizon, you have a choice: either downloading a [prebuilt release for your target architecture](https://github.com/fonero-project/horizon/releases) and operation system, or [building horizon yourself](#Building).  When either approach is complete, you will find yourself with a directory containing a file named `horizon`.  This file is a native binary.
+To install horizon, you have a choice: either downloading a [prebuilt release for your target architecture](https://github.com/fonero-project/fonero-horizon/releases) and operation system, or [building horizon yourself](#Building).  When either approach is complete, you will find yourself with a directory containing a file named `horizon`.  This file is a native binary.
 
 After building or unpacking horizon, you simply need to copy the native binary into a directory that is part of your PATH.  Most unix-like systems have `/usr/local/bin` in PATH by default, so unless you have a preference or know better, we recommend you copy the binary there.
 
@@ -39,7 +39,7 @@ Should you decide not to use one of our prebuilt releases, you may instead build
 
 Provided your workstation satisfies the requirements above, follow the steps below:
 
-1. Clone horizon's source:  `git clone https://github.com/fonero-project/horizon.git && cd horizon`
+1. Clone horizon's source:  `git clone https://github.com/fonero-project/fonero-horizon.git && cd horizon`
 2. Download external dependencies: `gb vendor restore`
 3. Build the binary: `gb build`
 
@@ -64,7 +64,7 @@ As you will see if you run the command above, horizon defines a large number of 
 
 `--db-url` specifies the horizon database, and its value should be a valid [PostgreSQL Connection URI](http://www.postgresql.org/docs/9.2/static/libpq-connect.html#AEN38419).  `--fonero-core-db-url` specifies a fonero-core database which will be used to load data about the fonero ledger.  Finally, `--fonero-core-url` specifies the HTTP control port for an instance of fonero-core.  This URL should be associated with the fonero-core that is writing to the database at `--fonero-core-db-url`.
 
-Specifying command line flags every time you invoke horizon can be cumbersome, and so we recommend using environment variables.  There are many tools you can use to manage environment variables:  we recommend either [direnv](http://direnv.net/) or [dotenv](https://github.com/bkeepers/dotenv).  A template configuration that is compatible with dotenv can be found in the [horizon git repo](https://github.com/fonero-project/horizon/blob/master/.env.template).
+Specifying command line flags every time you invoke horizon can be cumbersome, and so we recommend using environment variables.  There are many tools you can use to manage environment variables:  we recommend either [direnv](http://direnv.net/) or [dotenv](https://github.com/bkeepers/dotenv).  A template configuration that is compatible with dotenv can be found in the [horizon git repo](https://github.com/fonero-project/fonero-horizon/blob/master/.env.template).
 
 
 

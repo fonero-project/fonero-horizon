@@ -6,7 +6,7 @@ import (
 
 	"github.com/PuerkitoBio/throttled"
 	. "github.com/smartystreets/goconvey/convey"
-	"github.com/fonero-project/horizon/test"
+	"github.com/fonero-project/fonero-horizon/test"
 )
 
 func TestRateLimitMiddleware(t *testing.T) {

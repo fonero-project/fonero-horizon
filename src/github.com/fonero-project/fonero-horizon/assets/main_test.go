@@ -5,7 +5,7 @@ import (
 
 	"github.com/go-errors/errors"
 	. "github.com/smartystreets/goconvey/convey"
-	"github.com/fonero-project/go/xdr"
+	"github.com/fonero-project/fonero-golang/xdr"
 )
 
 func TestAssets(t *testing.T) {

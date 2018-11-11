@@ -5,15 +5,15 @@ import (
 	"net/url"
 	"strconv"
 
-	"github.com/fonero-project/go/amount"
-	"github.com/fonero-project/go/strkey"
-	"github.com/fonero-project/go/support/errors"
-	"github.com/fonero-project/go/xdr"
-	"github.com/fonero-project/horizon/assets"
-	"github.com/fonero-project/horizon/db2"
-	"github.com/fonero-project/horizon/ledger"
-	"github.com/fonero-project/horizon/render/problem"
-	"github.com/fonero-project/horizon/toid"
+	"github.com/fonero-project/fonero-golang/amount"
+	"github.com/fonero-project/fonero-golang/strkey"
+	"github.com/fonero-project/fonero-golang/support/errors"
+	"github.com/fonero-project/fonero-golang/xdr"
+	"github.com/fonero-project/fonero-horizon/assets"
+	"github.com/fonero-project/fonero-horizon/db2"
+	"github.com/fonero-project/fonero-horizon/ledger"
+	"github.com/fonero-project/fonero-horizon/render/problem"
+	"github.com/fonero-project/fonero-horizon/toid"
 )
 
 const (

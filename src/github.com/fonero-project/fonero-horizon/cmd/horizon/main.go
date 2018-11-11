@@ -8,8 +8,8 @@ import (
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
-	"github.com/fonero-project/horizon"
-	hlog "github.com/fonero-project/horizon/log"
+	"github.com/fonero-project/fonero-horizon"
+	hlog "github.com/fonero-project/fonero-horizon/log"
 )
 
 var app *horizon.App

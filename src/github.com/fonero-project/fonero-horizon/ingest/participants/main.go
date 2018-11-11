@@ -5,7 +5,7 @@ package participants
 import (
 	"fmt"
 
-	"github.com/fonero-project/go/xdr"
+	"github.com/fonero-project/fonero-golang/xdr"
 )
 
 // ForOperation returns all the participating accounts from the

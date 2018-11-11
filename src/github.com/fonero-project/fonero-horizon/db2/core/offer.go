@@ -6,8 +6,8 @@ import (
 
 	sq "github.com/Masterminds/squirrel"
 	"github.com/go-errors/errors"
-	"github.com/fonero-project/go/xdr"
-	"github.com/fonero-project/horizon/db2"
+	"github.com/fonero-project/fonero-golang/xdr"
+	"github.com/fonero-project/fonero-horizon/db2"
 )
 
 // PagingToken returns a suitable paging token for the Offer

@@ -3,11 +3,11 @@ package horizon
 import (
 	"net/http"
 
-	"github.com/fonero-project/horizon/db2/core"
-	"github.com/fonero-project/horizon/db2/history"
-	"github.com/fonero-project/horizon/txsub"
-	results "github.com/fonero-project/horizon/txsub/results/db"
-	"github.com/fonero-project/horizon/txsub/sequence"
+	"github.com/fonero-project/fonero-horizon/db2/core"
+	"github.com/fonero-project/fonero-horizon/db2/history"
+	"github.com/fonero-project/fonero-horizon/txsub"
+	results "github.com/fonero-project/fonero-horizon/txsub/results/db"
+	"github.com/fonero-project/fonero-horizon/txsub/sequence"
 )
 
 func initSubmissionSystem(app *App) {

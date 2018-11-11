@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/fonero-project/horizon/resource"
+	"github.com/fonero-project/fonero-horizon/resource"
 )
 
 func TestOrderBookActions_Show(t *testing.T) {

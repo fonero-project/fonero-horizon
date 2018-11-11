@@ -3,13 +3,13 @@ package horizon
 import (
 	"net/http"
 
-	"github.com/fonero-project/horizon/db2"
-	"github.com/fonero-project/horizon/db2/history"
-	"github.com/fonero-project/horizon/render/hal"
-	"github.com/fonero-project/horizon/render/problem"
-	"github.com/fonero-project/horizon/render/sse"
-	"github.com/fonero-project/horizon/resource"
-	"github.com/fonero-project/horizon/txsub"
+	"github.com/fonero-project/fonero-horizon/db2"
+	"github.com/fonero-project/fonero-horizon/db2/history"
+	"github.com/fonero-project/fonero-horizon/render/hal"
+	"github.com/fonero-project/fonero-horizon/render/problem"
+	"github.com/fonero-project/fonero-horizon/render/sse"
+	"github.com/fonero-project/fonero-horizon/resource"
+	"github.com/fonero-project/fonero-horizon/txsub"
 )
 
 // This file contains the actions:

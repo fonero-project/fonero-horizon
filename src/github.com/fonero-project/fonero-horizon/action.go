@@ -5,14 +5,14 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/fonero-project/horizon/actions"
-	"github.com/fonero-project/horizon/db2/core"
-	"github.com/fonero-project/horizon/db2/history"
-	"github.com/fonero-project/horizon/httpx"
-	"github.com/fonero-project/horizon/ledger"
-	"github.com/fonero-project/horizon/log"
-	"github.com/fonero-project/horizon/render/problem"
-	"github.com/fonero-project/horizon/toid"
+	"github.com/fonero-project/fonero-horizon/actions"
+	"github.com/fonero-project/fonero-horizon/db2/core"
+	"github.com/fonero-project/fonero-horizon/db2/history"
+	"github.com/fonero-project/fonero-horizon/httpx"
+	"github.com/fonero-project/fonero-horizon/ledger"
+	"github.com/fonero-project/fonero-horizon/log"
+	"github.com/fonero-project/fonero-horizon/render/problem"
+	"github.com/fonero-project/fonero-horizon/toid"
 	"github.com/zenazn/goji/web"
 )
 

@@ -1,7 +1,7 @@
 package utf8
 
 import (
-	"github.com/fonero-project/horizon/test"
+	"github.com/fonero-project/fonero-horizon/test"
 	"testing"
 )
 

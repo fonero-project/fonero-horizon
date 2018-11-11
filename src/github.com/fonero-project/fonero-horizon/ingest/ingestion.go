@@ -9,11 +9,11 @@ import (
 
 	sq "github.com/Masterminds/squirrel"
 	"github.com/guregu/null"
-	"github.com/fonero-project/go/support/errors"
-	"github.com/fonero-project/go/xdr"
-	"github.com/fonero-project/horizon/db2/core"
-	"github.com/fonero-project/horizon/db2/history"
-	"github.com/fonero-project/horizon/db2/sqx"
+	"github.com/fonero-project/fonero-golang/support/errors"
+	"github.com/fonero-project/fonero-golang/xdr"
+	"github.com/fonero-project/fonero-horizon/db2/core"
+	"github.com/fonero-project/fonero-horizon/db2/history"
+	"github.com/fonero-project/fonero-horizon/db2/sqx"
 )
 
 // ClearAll clears the entire history database

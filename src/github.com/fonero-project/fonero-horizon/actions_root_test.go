@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/fonero-project/horizon/resource"
-	"github.com/fonero-project/horizon/test"
+	"github.com/fonero-project/fonero-horizon/resource"
+	"github.com/fonero-project/fonero-horizon/test"
 )
 
 func TestRootAction(t *testing.T) {

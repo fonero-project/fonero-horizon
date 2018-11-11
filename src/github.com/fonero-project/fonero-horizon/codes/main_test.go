@@ -2,7 +2,7 @@ package codes
 
 import (
 	. "github.com/smartystreets/goconvey/convey"
-	"github.com/fonero-project/go/xdr"
+	"github.com/fonero-project/fonero-golang/xdr"
 	"testing"
 )
 

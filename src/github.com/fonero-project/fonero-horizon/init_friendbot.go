@@ -1,8 +1,8 @@
 package horizon
 
 import (
-	"github.com/fonero-project/go/strkey"
-	"github.com/fonero-project/horizon/friendbot"
+	"github.com/fonero-project/fonero-golang/strkey"
+	"github.com/fonero-project/fonero-horizon/friendbot"
 )
 
 func initFriendbot(app *App) {

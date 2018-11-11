@@ -10,12 +10,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/fonero-project/go/amount"
-	"github.com/fonero-project/go/keypair"
-	"github.com/fonero-project/go/meta"
-	"github.com/fonero-project/go/xdr"
-	"github.com/fonero-project/horizon/db2/history"
-	"github.com/fonero-project/horizon/ingest/participants"
+	"github.com/fonero-project/fonero-golang/amount"
+	"github.com/fonero-project/fonero-golang/keypair"
+	"github.com/fonero-project/fonero-golang/meta"
+	"github.com/fonero-project/fonero-golang/xdr"
+	"github.com/fonero-project/fonero-horizon/db2/history"
+	"github.com/fonero-project/fonero-horizon/ingest/participants"
 )
 
 // Run starts an attempt to ingest the range of ledgers specified in this

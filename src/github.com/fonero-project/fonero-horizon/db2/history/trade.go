@@ -5,10 +5,10 @@ import (
 	"math"
 
 	sq "github.com/Masterminds/squirrel"
-	"github.com/fonero-project/go/support/errors"
-	"github.com/fonero-project/go/xdr"
-	"github.com/fonero-project/horizon/db2"
-	toid "github.com/fonero-project/horizon/toid"
+	"github.com/fonero-project/fonero-golang/support/errors"
+	"github.com/fonero-project/fonero-golang/xdr"
+	"github.com/fonero-project/fonero-horizon/db2"
+	toid "github.com/fonero-project/fonero-horizon/toid"
 )
 
 // LedgerSequence return the ledger in which the effect occurred.

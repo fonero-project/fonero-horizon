@@ -5,9 +5,9 @@ import (
 
 	gctx "github.com/goji/context"
 
-	"github.com/fonero-project/horizon/render"
-	"github.com/fonero-project/horizon/render/problem"
-	"github.com/fonero-project/horizon/render/sse"
+	"github.com/fonero-project/fonero-horizon/render"
+	"github.com/fonero-project/fonero-horizon/render/problem"
+	"github.com/fonero-project/fonero-horizon/render/sse"
 	"github.com/zenazn/goji/web"
 	"golang.org/x/net/context"
 )

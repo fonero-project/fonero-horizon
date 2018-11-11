@@ -5,8 +5,8 @@ import (
 	"time"
 
 	"github.com/rcrowley/go-metrics"
-	"github.com/fonero-project/horizon/log"
-	"github.com/fonero-project/horizon/txsub/sequence"
+	"github.com/fonero-project/fonero-horizon/log"
+	"github.com/fonero-project/fonero-horizon/txsub/sequence"
 	"golang.org/x/net/context"
 )
 

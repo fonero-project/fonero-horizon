@@ -1,6 +1,6 @@
 package horizon
 
-import "github.com/fonero-project/horizon/render/problem"
+import "github.com/fonero-project/fonero-horizon/render/problem"
 
 // NotFoundAction renders a 404 response
 type NotFoundAction struct {

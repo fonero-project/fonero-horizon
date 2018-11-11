@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	sq "github.com/Masterminds/squirrel"
-	"github.com/fonero-project/horizon/test"
+	"github.com/fonero-project/fonero-horizon/test"
 )
 
 func TestStringArray(t *testing.T) {

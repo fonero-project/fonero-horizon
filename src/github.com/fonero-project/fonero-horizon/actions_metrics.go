@@ -2,7 +2,7 @@ package horizon
 
 import (
 	"github.com/rcrowley/go-metrics"
-	"github.com/fonero-project/horizon/render/hal"
+	"github.com/fonero-project/fonero-horizon/render/hal"
 )
 
 // MetricsAction collects and renders a snapshot from the metrics system that

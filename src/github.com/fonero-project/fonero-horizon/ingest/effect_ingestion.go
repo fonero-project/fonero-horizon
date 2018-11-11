@@ -1,8 +1,8 @@
 package ingest
 
 import (
-	"github.com/fonero-project/go/xdr"
-	"github.com/fonero-project/horizon/db2/history"
+	"github.com/fonero-project/fonero-golang/xdr"
+	"github.com/fonero-project/fonero-horizon/db2/history"
 )
 
 // Add writes an effect to the database while automatically tracking the index

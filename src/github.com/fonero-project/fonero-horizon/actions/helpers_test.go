@@ -7,11 +7,11 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/fonero-project/go/xdr"
-	"github.com/fonero-project/horizon/ledger"
-	"github.com/fonero-project/horizon/render/problem"
-	"github.com/fonero-project/horizon/test"
-	"github.com/fonero-project/horizon/toid"
+	"github.com/fonero-project/fonero-golang/xdr"
+	"github.com/fonero-project/fonero-horizon/ledger"
+	"github.com/fonero-project/fonero-horizon/render/problem"
+	"github.com/fonero-project/fonero-horizon/test"
+	"github.com/fonero-project/fonero-horizon/toid"
 	"github.com/zenazn/goji/web"
 )
 
@@ -230,7 +230,7 @@ func TestGetPageQuery(t *testing.T) {
 	_ = action.GetPageQuery()
 	tt.Assert.Error(action.Err)
 
-	// regression: https://github.com/fonero-project/horizon/issues/372
+	// regression: https://github.com/fonero-project/fonero-horizon/issues/372
 	// (limit of 0 turns into 10)
 	makeAction("/?limit=0", nil)
 	_ = action.GetPageQuery()

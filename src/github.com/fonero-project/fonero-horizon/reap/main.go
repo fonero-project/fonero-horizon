@@ -7,7 +7,7 @@ package reap
 import (
 	"time"
 
-	"github.com/fonero-project/go/support/db"
+	"github.com/fonero-project/fonero-golang/support/db"
 )
 
 // System represents the history reaping subsystem of horizon.

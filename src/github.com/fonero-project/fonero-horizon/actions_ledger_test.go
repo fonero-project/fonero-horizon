@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/fonero-project/horizon/resource"
+	"github.com/fonero-project/fonero-horizon/resource"
 )
 
 func TestLedgerActions_Index(t *testing.T) {

@@ -1,10 +1,10 @@
 package resource
 
 import (
-	"github.com/fonero-project/go/amount"
-	"github.com/fonero-project/go/xdr"
-	"github.com/fonero-project/horizon/assets"
-	"github.com/fonero-project/horizon/db2/core"
+	"github.com/fonero-project/fonero-golang/amount"
+	"github.com/fonero-project/fonero-golang/xdr"
+	"github.com/fonero-project/fonero-horizon/assets"
+	"github.com/fonero-project/fonero-horizon/db2/core"
 	"golang.org/x/net/context"
 )
 

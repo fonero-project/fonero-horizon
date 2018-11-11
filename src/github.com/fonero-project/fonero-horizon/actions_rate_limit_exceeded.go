@@ -5,7 +5,7 @@ import (
 
 	"github.com/zenazn/goji/web"
 
-	"github.com/fonero-project/horizon/render/problem"
+	"github.com/fonero-project/fonero-horizon/render/problem"
 )
 
 // RateLimitExceededAction renders a 429 response

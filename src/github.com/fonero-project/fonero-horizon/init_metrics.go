@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/rcrowley/go-metrics"
-	"github.com/fonero-project/horizon/log"
+	"github.com/fonero-project/fonero-horizon/log"
 )
 
 func initMetrics(app *App) {

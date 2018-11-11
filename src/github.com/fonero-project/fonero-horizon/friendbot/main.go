@@ -4,9 +4,9 @@ import (
 	"errors"
 	"sync"
 
-	. "github.com/fonero-project/go/build"
-	"github.com/fonero-project/go/keypair"
-	"github.com/fonero-project/horizon/txsub"
+	. "github.com/fonero-project/fonero-golang/build"
+	"github.com/fonero-project/fonero-golang/keypair"
+	"github.com/fonero-project/fonero-horizon/txsub"
 	"golang.org/x/net/context"
 )
 

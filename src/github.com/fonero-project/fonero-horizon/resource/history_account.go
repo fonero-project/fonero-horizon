@@ -1,7 +1,7 @@
 package resource
 
 import (
-	"github.com/fonero-project/horizon/db2/history"
+	"github.com/fonero-project/fonero-horizon/db2/history"
 	"golang.org/x/net/context"
 )
 

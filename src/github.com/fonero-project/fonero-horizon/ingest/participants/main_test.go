@@ -3,9 +3,9 @@ package participants
 import (
 	"testing"
 
-	"github.com/fonero-project/go/xdr"
-	"github.com/fonero-project/horizon/db2/core"
-	"github.com/fonero-project/horizon/test"
+	"github.com/fonero-project/fonero-golang/xdr"
+	"github.com/fonero-project/fonero-horizon/db2/core"
+	"github.com/fonero-project/fonero-horizon/test"
 )
 
 func TestForOperation(t *testing.T) {

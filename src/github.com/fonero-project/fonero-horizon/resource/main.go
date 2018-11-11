@@ -5,13 +5,13 @@ package resource
 import (
 	"time"
 
-	"github.com/fonero-project/go/strkey"
-	"github.com/fonero-project/go/support/errors"
-	"github.com/fonero-project/horizon/db2/history"
-	"github.com/fonero-project/horizon/render/hal"
-	"github.com/fonero-project/horizon/resource/base"
-	"github.com/fonero-project/horizon/resource/effects"
-	"github.com/fonero-project/horizon/resource/operations"
+	"github.com/fonero-project/fonero-golang/strkey"
+	"github.com/fonero-project/fonero-golang/support/errors"
+	"github.com/fonero-project/fonero-horizon/db2/history"
+	"github.com/fonero-project/fonero-horizon/render/hal"
+	"github.com/fonero-project/fonero-horizon/resource/base"
+	"github.com/fonero-project/fonero-horizon/resource/effects"
+	"github.com/fonero-project/fonero-horizon/resource/operations"
 	"golang.org/x/net/context"
 )
 

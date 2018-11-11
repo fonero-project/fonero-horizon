@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/fonero-project/horizon/render/sse"
-	"github.com/fonero-project/horizon/test"
+	"github.com/fonero-project/fonero-horizon/render/sse"
+	"github.com/fonero-project/fonero-horizon/test"
 )
 
 func TestNewApp(t *testing.T) {

@@ -1,9 +1,9 @@
 package horizon
 
 import (
-	"github.com/fonero-project/horizon/ledger"
-	"github.com/fonero-project/horizon/render/hal"
-	"github.com/fonero-project/horizon/resource"
+	"github.com/fonero-project/fonero-horizon/ledger"
+	"github.com/fonero-project/fonero-horizon/render/hal"
+	"github.com/fonero-project/fonero-horizon/resource"
 )
 
 // RootAction provides a summary of the horizon instance and links to various

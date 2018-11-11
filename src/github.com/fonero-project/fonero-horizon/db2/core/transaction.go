@@ -8,9 +8,9 @@ import (
 
 	sq "github.com/Masterminds/squirrel"
 	"github.com/guregu/null"
-	"github.com/fonero-project/go/strkey"
-	"github.com/fonero-project/go/xdr"
-	"github.com/fonero-project/horizon/utf8"
+	"github.com/fonero-project/fonero-golang/strkey"
+	"github.com/fonero-project/fonero-golang/xdr"
+	"github.com/fonero-project/fonero-horizon/utf8"
 )
 
 // Base64Signatures returns a slice of strings where each element is a base64

@@ -3,8 +3,8 @@ package core
 import (
 	"testing"
 
-	"github.com/fonero-project/horizon/db2"
-	"github.com/fonero-project/horizon/test"
+	"github.com/fonero-project/fonero-horizon/db2"
+	"github.com/fonero-project/fonero-horizon/test"
 )
 
 func TestOffersByAddress(t *testing.T) {

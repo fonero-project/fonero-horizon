@@ -1,8 +1,8 @@
 package simplepath
 
 import (
-	"github.com/fonero-project/go/xdr"
-	"github.com/fonero-project/horizon/paths"
+	"github.com/fonero-project/fonero-golang/xdr"
+	"github.com/fonero-project/fonero-horizon/paths"
 )
 
 // search represents a single query against the simple finder.  It provides

@@ -4,8 +4,8 @@ import (
 	"net/http"
 
 	gctx "github.com/goji/context"
-	"github.com/fonero-project/horizon/errors"
-	"github.com/fonero-project/horizon/render/problem"
+	"github.com/fonero-project/fonero-horizon/errors"
+	"github.com/fonero-project/fonero-horizon/render/problem"
 	"github.com/zenazn/goji/web"
 )
 

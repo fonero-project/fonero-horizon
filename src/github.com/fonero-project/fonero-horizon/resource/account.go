@@ -4,10 +4,10 @@ import (
 	"encoding/base64"
 	"fmt"
 
-	"github.com/fonero-project/horizon/db2/core"
-	"github.com/fonero-project/horizon/db2/history"
-	"github.com/fonero-project/horizon/httpx"
-	"github.com/fonero-project/horizon/render/hal"
+	"github.com/fonero-project/fonero-horizon/db2/core"
+	"github.com/fonero-project/fonero-horizon/db2/history"
+	"github.com/fonero-project/fonero-horizon/httpx"
+	"github.com/fonero-project/fonero-horizon/render/hal"
 	"golang.org/x/net/context"
 )
 

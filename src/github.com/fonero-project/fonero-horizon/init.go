@@ -1,7 +1,7 @@
 package horizon
 
 import (
-	"github.com/fonero-project/horizon/log"
+	"github.com/fonero-project/fonero-horizon/log"
 )
 
 // InitFn is a function that contributes to the initialization of an App struct

@@ -1,14 +1,14 @@
 package ingest
 
 import (
-	"github.com/fonero-project/go/support/errors"
-	err2 "github.com/fonero-project/go/support/errors"
-	"github.com/fonero-project/horizon/db2/core"
-	"github.com/fonero-project/horizon/db2/history"
-	herr "github.com/fonero-project/horizon/errors"
-	"github.com/fonero-project/horizon/ledger"
-	"github.com/fonero-project/horizon/log"
-	"github.com/fonero-project/horizon/toid"
+	"github.com/fonero-project/fonero-golang/support/errors"
+	err2 "github.com/fonero-project/fonero-golang/support/errors"
+	"github.com/fonero-project/fonero-horizon/db2/core"
+	"github.com/fonero-project/fonero-horizon/db2/history"
+	herr "github.com/fonero-project/fonero-horizon/errors"
+	"github.com/fonero-project/fonero-horizon/ledger"
+	"github.com/fonero-project/fonero-horizon/log"
+	"github.com/fonero-project/fonero-horizon/toid"
 )
 
 // ClearAll removes all previously ingested historical data from the horizon

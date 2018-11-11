@@ -3,8 +3,8 @@ package core
 import (
 	"testing"
 
-	"github.com/fonero-project/go/xdr"
-	"github.com/fonero-project/horizon/test"
+	"github.com/fonero-project/fonero-golang/xdr"
+	"github.com/fonero-project/fonero-horizon/test"
 )
 
 func TestTransactionsQueries(t *testing.T) {

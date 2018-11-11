@@ -3,7 +3,7 @@ package horizon
 import (
 	"testing"
 
-	"github.com/fonero-project/horizon/test"
+	"github.com/fonero-project/fonero-horizon/test"
 )
 
 func TestEffectActions_Index(t *testing.T) {
@@ -15,7 +15,7 @@ func TestEffectActions_Index(t *testing.T) {
 		ht.Assert.PageOf(11, w.Body)
 	}
 
-	// test streaming, regression for https://github.com/fonero-project/horizon/issues/147
+	// test streaming, regression for https://github.com/fonero-project/fonero-horizon/issues/147
 	w = ht.Get("/effects?limit=2", test.RequestHelperStreaming)
 	ht.Assert.Equal(200, w.Code)
 

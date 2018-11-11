@@ -2,7 +2,7 @@ package txsub
 
 import (
 	. "github.com/smartystreets/goconvey/convey"
-	"github.com/fonero-project/horizon/test"
+	"github.com/fonero-project/fonero-horizon/test"
 	"net/http"
 	"testing"
 )

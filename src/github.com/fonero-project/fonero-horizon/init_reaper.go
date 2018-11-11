@@ -1,7 +1,7 @@
 package horizon
 
 import (
-	"github.com/fonero-project/horizon/reap"
+	"github.com/fonero-project/fonero-horizon/reap"
 )
 
 func initReaper(app *App) {

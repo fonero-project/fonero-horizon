@@ -6,7 +6,7 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/fonero-project/horizon/test"
+	"github.com/fonero-project/fonero-horizon/test"
 )
 
 type HTTPT struct {

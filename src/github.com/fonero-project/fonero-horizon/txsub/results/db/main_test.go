@@ -3,9 +3,9 @@ package results
 import (
 	"testing"
 
-	"github.com/fonero-project/horizon/db2/core"
-	"github.com/fonero-project/horizon/db2/history"
-	"github.com/fonero-project/horizon/test"
+	"github.com/fonero-project/fonero-horizon/db2/core"
+	"github.com/fonero-project/fonero-horizon/db2/history"
+	"github.com/fonero-project/fonero-horizon/test"
 )
 
 func TestResultProvider(t *testing.T) {

@@ -2,9 +2,9 @@ package simplepath
 
 import (
 	"github.com/go-errors/errors"
-	"github.com/fonero-project/horizon/db2/core"
-	"github.com/fonero-project/horizon/log"
-	"github.com/fonero-project/horizon/paths"
+	"github.com/fonero-project/fonero-horizon/db2/core"
+	"github.com/fonero-project/fonero-horizon/log"
+	"github.com/fonero-project/fonero-horizon/paths"
 )
 
 // Finder implements the paths.Finder interface and searchs for

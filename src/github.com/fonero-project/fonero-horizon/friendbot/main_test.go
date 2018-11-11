@@ -5,7 +5,7 @@ import (
 
 	"sync"
 
-	"github.com/fonero-project/horizon/test"
+	"github.com/fonero-project/fonero-horizon/test"
 )
 
 // REGRESSION:  ensure that we can craft a transaction

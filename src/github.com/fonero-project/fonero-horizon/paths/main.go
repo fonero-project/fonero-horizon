@@ -1,7 +1,7 @@
 package paths
 
 import (
-	"github.com/fonero-project/go/xdr"
+	"github.com/fonero-project/fonero-golang/xdr"
 )
 
 // Query is a query for paths

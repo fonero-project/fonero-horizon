@@ -7,8 +7,8 @@ import (
 	"log"
 
 	"github.com/PuerkitoBio/throttled"
-	hlog "github.com/fonero-project/horizon/log"
-	"github.com/fonero-project/horizon/test"
+	hlog "github.com/fonero-project/fonero-horizon/log"
+	"github.com/fonero-project/fonero-horizon/test"
 )
 
 func NewTestApp() *App {

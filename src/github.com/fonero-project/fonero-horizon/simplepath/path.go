@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/fonero-project/go/xdr"
-	"github.com/fonero-project/horizon/db2/core"
-	"github.com/fonero-project/horizon/paths"
+	"github.com/fonero-project/fonero-golang/xdr"
+	"github.com/fonero-project/fonero-horizon/db2/core"
+	"github.com/fonero-project/fonero-horizon/paths"
 )
 
 // pathNode implements the paths.Path interface and represents a path

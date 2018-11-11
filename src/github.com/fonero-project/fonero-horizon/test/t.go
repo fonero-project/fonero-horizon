@@ -5,8 +5,8 @@ import (
 
 	"encoding/json"
 
-	"github.com/fonero-project/go/support/db"
-	"github.com/fonero-project/horizon/ledger"
+	"github.com/fonero-project/fonero-golang/support/db"
+	"github.com/fonero-project/fonero-horizon/ledger"
 )
 
 // CoreSession returns a db.Session instance pointing at the fonero core test database

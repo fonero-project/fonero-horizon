@@ -1,11 +1,11 @@
 package resource
 
 import (
-	"github.com/fonero-project/go/amount"
-	"github.com/fonero-project/horizon/assets"
-	"github.com/fonero-project/horizon/db2/core"
-	"github.com/fonero-project/horizon/httpx"
-	"github.com/fonero-project/horizon/render/hal"
+	"github.com/fonero-project/fonero-golang/amount"
+	"github.com/fonero-project/fonero-horizon/assets"
+	"github.com/fonero-project/fonero-horizon/db2/core"
+	"github.com/fonero-project/fonero-horizon/httpx"
+	"github.com/fonero-project/fonero-horizon/render/hal"
 	"golang.org/x/net/context"
 )
 

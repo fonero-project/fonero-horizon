@@ -1,9 +1,9 @@
 package txsub
 
 import (
-	"github.com/fonero-project/go/build"
-	"github.com/fonero-project/go/strkey"
-	"github.com/fonero-project/go/xdr"
+	"github.com/fonero-project/fonero-golang/build"
+	"github.com/fonero-project/fonero-golang/strkey"
+	"github.com/fonero-project/fonero-golang/xdr"
 	"golang.org/x/net/context"
 )
 

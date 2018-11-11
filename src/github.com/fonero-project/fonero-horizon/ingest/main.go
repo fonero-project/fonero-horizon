@@ -8,8 +8,8 @@ import (
 
 	sq "github.com/Masterminds/squirrel"
 	metrics "github.com/rcrowley/go-metrics"
-	"github.com/fonero-project/go/support/db"
-	"github.com/fonero-project/horizon/db2/core"
+	"github.com/fonero-project/fonero-golang/support/db"
+	"github.com/fonero-project/fonero-horizon/db2/core"
 )
 
 const (

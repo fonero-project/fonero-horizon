@@ -3,8 +3,8 @@ package horizon
 import (
 	"net/http"
 
-	"github.com/fonero-project/horizon/render/hal"
-	"github.com/fonero-project/horizon/render/problem"
+	"github.com/fonero-project/fonero-horizon/render/hal"
+	"github.com/fonero-project/fonero-horizon/render/problem"
 	"github.com/zenazn/goji/web"
 )
 

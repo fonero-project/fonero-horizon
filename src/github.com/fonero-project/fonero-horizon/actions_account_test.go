@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/fonero-project/horizon/resource"
+	"github.com/fonero-project/fonero-horizon/resource"
 )
 
 func TestAccountActions_Show(t *testing.T) {

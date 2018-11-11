@@ -6,9 +6,9 @@ import (
 	"time"
 
 	. "github.com/smartystreets/goconvey/convey"
-	"github.com/fonero-project/go/build"
-	"github.com/fonero-project/horizon/test"
-	"github.com/fonero-project/horizon/txsub/sequence"
+	"github.com/fonero-project/fonero-golang/build"
+	"github.com/fonero-project/fonero-horizon/test"
+	"github.com/fonero-project/fonero-horizon/txsub/sequence"
 )
 
 func TestTxsub(t *testing.T) {

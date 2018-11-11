@@ -3,10 +3,10 @@ package reap
 import (
 	"time"
 
-	"github.com/fonero-project/horizon/errors"
-	"github.com/fonero-project/horizon/ledger"
-	"github.com/fonero-project/horizon/log"
-	"github.com/fonero-project/horizon/toid"
+	"github.com/fonero-project/fonero-horizon/errors"
+	"github.com/fonero-project/fonero-horizon/ledger"
+	"github.com/fonero-project/fonero-horizon/log"
+	"github.com/fonero-project/fonero-horizon/toid"
 )
 
 // DeleteUnretainedHistory removes all data associated with unretained ledgers.

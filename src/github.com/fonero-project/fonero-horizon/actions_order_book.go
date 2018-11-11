@@ -5,14 +5,14 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/fonero-project/go/xdr"
-	"github.com/fonero-project/horizon/db2"
-	"github.com/fonero-project/horizon/db2/core"
-	"github.com/fonero-project/horizon/db2/history"
-	"github.com/fonero-project/horizon/render/hal"
-	"github.com/fonero-project/horizon/render/problem"
-	"github.com/fonero-project/horizon/render/sse"
-	"github.com/fonero-project/horizon/resource"
+	"github.com/fonero-project/fonero-golang/xdr"
+	"github.com/fonero-project/fonero-horizon/db2"
+	"github.com/fonero-project/fonero-horizon/db2/core"
+	"github.com/fonero-project/fonero-horizon/db2/history"
+	"github.com/fonero-project/fonero-horizon/render/hal"
+	"github.com/fonero-project/fonero-horizon/render/problem"
+	"github.com/fonero-project/fonero-horizon/render/sse"
+	"github.com/fonero-project/fonero-horizon/resource"
 )
 
 // OrderBookShowAction renders a account summary found by its address.

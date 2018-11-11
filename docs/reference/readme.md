@@ -17,7 +17,7 @@ SDF runs a instance of Horizon that is connected to the test net: [https://horiz
 SDF maintained libraries:<br />
 - [JavaScript](https://github.com/fonero-project/js-fonero-sdk)
 - [Java](https://github.com/fonero-project/java-fonero-sdk)
-- [Go](https://github.com/fonero-project/go)
+- [Go](https://github.com/fonero-project/fonero-golang)
 
 Community maintained libraries (in various states of completeness) for interacting with Horizon in other languages:<br>
 - [Ruby](https://github.com/fonero-project/ruby-fonero-sdk)

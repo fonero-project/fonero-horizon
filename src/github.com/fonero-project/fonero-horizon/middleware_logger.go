@@ -8,8 +8,8 @@ import (
 	"golang.org/x/net/context"
 
 	gctx "github.com/goji/context"
-	"github.com/fonero-project/horizon/log"
-	"github.com/fonero-project/horizon/render"
+	"github.com/fonero-project/fonero-horizon/log"
+	"github.com/fonero-project/fonero-horizon/render"
 	"github.com/zenazn/goji/web"
 	"github.com/zenazn/goji/web/middleware"
 	"github.com/zenazn/goji/web/mutil"

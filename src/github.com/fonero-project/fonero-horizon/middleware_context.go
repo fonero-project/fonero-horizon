@@ -2,8 +2,8 @@ package horizon
 
 import (
 	gctx "github.com/goji/context"
-	"github.com/fonero-project/horizon/context/requestid"
-	"github.com/fonero-project/horizon/httpx"
+	"github.com/fonero-project/fonero-horizon/context/requestid"
+	"github.com/fonero-project/fonero-horizon/httpx"
 	"github.com/zenazn/goji/web"
 	"golang.org/x/net/context"
 	"net/http"

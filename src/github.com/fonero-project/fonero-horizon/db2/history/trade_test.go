@@ -3,9 +3,9 @@ package history
 import (
 	"testing"
 
-	"github.com/fonero-project/go/build"
-	"github.com/fonero-project/horizon/db2"
-	"github.com/fonero-project/horizon/test"
+	"github.com/fonero-project/fonero-golang/build"
+	"github.com/fonero-project/fonero-horizon/db2"
+	"github.com/fonero-project/fonero-horizon/test"
 )
 
 func TestTradeQueries(t *testing.T) {

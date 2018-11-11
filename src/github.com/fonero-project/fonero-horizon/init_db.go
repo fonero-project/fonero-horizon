@@ -1,10 +1,10 @@
 package horizon
 
 import (
-	"github.com/fonero-project/go/support/db"
-	"github.com/fonero-project/horizon/db2/core"
-	"github.com/fonero-project/horizon/db2/history"
-	"github.com/fonero-project/horizon/log"
+	"github.com/fonero-project/fonero-golang/support/db"
+	"github.com/fonero-project/fonero-horizon/db2/core"
+	"github.com/fonero-project/fonero-horizon/db2/history"
+	"github.com/fonero-project/fonero-horizon/log"
 )
 
 func initHorizonDb(app *App) {

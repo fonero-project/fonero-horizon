@@ -1,8 +1,8 @@
 package resource
 
 import (
-	"github.com/fonero-project/go/amount"
-	"github.com/fonero-project/horizon/paths"
+	"github.com/fonero-project/fonero-golang/amount"
+	"github.com/fonero-project/fonero-horizon/paths"
 	"golang.org/x/net/context"
 )
 

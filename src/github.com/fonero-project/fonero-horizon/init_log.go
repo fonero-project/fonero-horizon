@@ -2,7 +2,7 @@ package horizon
 
 import (
 	"github.com/getsentry/raven-go"
-	"github.com/fonero-project/horizon/log"
+	"github.com/fonero-project/fonero-horizon/log"
 )
 
 // initLog initialized the logging subsystem, attaching app.log and

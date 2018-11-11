@@ -1,7 +1,7 @@
 package test
 
 import (
-	"github.com/fonero-project/horizon/test/scenarios"
+	"github.com/fonero-project/fonero-horizon/test/scenarios"
 )
 
 func loadScenario(scenarioName string, includeHorizon bool) {

@@ -1,7 +1,7 @@
 package resource
 
 import (
-	"github.com/fonero-project/horizon/txsub"
+	"github.com/fonero-project/fonero-horizon/txsub"
 	"golang.org/x/net/context"
 )
 

@@ -2,7 +2,7 @@ package log
 
 import (
 	"github.com/sirupsen/logrus"
-	"github.com/fonero-project/horizon/errors"
+	"github.com/fonero-project/fonero-horizon/errors"
 )
 
 type Entry struct {

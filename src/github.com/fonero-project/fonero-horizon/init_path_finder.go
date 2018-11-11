@@ -1,7 +1,7 @@
 package horizon
 
 import (
-	"github.com/fonero-project/horizon/simplepath"
+	"github.com/fonero-project/fonero-horizon/simplepath"
 )
 
 func initPathFinding(app *App) {

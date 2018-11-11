@@ -3,8 +3,8 @@ package txsub
 import (
 	"errors"
 	"fmt"
-	"github.com/fonero-project/go/xdr"
-	"github.com/fonero-project/horizon/codes"
+	"github.com/fonero-project/fonero-golang/xdr"
+	"github.com/fonero-project/fonero-horizon/codes"
 )
 
 var (

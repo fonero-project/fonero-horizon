@@ -4,7 +4,7 @@ import (
 	"net/http"
 
 	"bitbucket.org/ww/goautoneg"
-	"github.com/fonero-project/horizon/log"
+	"github.com/fonero-project/fonero-horizon/log"
 	"golang.org/x/net/context"
 )
 

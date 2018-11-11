@@ -1,7 +1,7 @@
 package resource
 
 import (
-	"github.com/fonero-project/horizon/db2/core"
+	"github.com/fonero-project/fonero-horizon/db2/core"
 )
 
 func (this *AccountThresholds) Populate(row core.Account) {

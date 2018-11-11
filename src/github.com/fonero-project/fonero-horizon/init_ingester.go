@@ -3,7 +3,7 @@ package horizon
 import (
 	"log"
 
-	"github.com/fonero-project/horizon/ingest"
+	"github.com/fonero-project/fonero-horizon/ingest"
 )
 
 func initIngester(app *App) {

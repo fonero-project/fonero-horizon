@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"encoding/json"
 
-	"github.com/fonero-project/horizon/render/problem"
-	"github.com/fonero-project/horizon/test"
+	"github.com/fonero-project/fonero-horizon/render/problem"
+	"github.com/fonero-project/fonero-horizon/test"
 	"github.com/stretchr/testify/assert"
 )
 

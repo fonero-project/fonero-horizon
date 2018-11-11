@@ -1,6 +1,6 @@
 package actions
 
-import "github.com/fonero-project/horizon/render/sse"
+import "github.com/fonero-project/fonero-horizon/render/sse"
 
 // JSON implementors can respond to a request whose response type was negotiated
 // to be MimeHal or MimeJSON.

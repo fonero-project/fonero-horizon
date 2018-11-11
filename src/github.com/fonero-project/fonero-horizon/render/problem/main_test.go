@@ -7,8 +7,8 @@ import (
 
 	ge "github.com/go-errors/errors"
 	. "github.com/smartystreets/goconvey/convey"
-	"github.com/fonero-project/horizon/context/requestid"
-	"github.com/fonero-project/horizon/test"
+	"github.com/fonero-project/fonero-horizon/context/requestid"
+	"github.com/fonero-project/fonero-horizon/test"
 	"golang.org/x/net/context"
 )
 

@@ -3,7 +3,7 @@ package ingest
 import (
 	"testing"
 
-	"github.com/fonero-project/horizon/test"
+	"github.com/fonero-project/fonero-horizon/test"
 )
 
 func TestLedgerBundleLoad(t *testing.T) {

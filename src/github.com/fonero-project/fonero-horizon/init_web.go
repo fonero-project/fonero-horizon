@@ -10,8 +10,8 @@ import (
 	metrics "github.com/rcrowley/go-metrics"
 	"github.com/rs/cors"
 	"github.com/sebest/xff"
-	"github.com/fonero-project/horizon/render/problem"
-	"github.com/fonero-project/horizon/txsub/sequence"
+	"github.com/fonero-project/fonero-horizon/render/problem"
+	"github.com/fonero-project/fonero-horizon/txsub/sequence"
 	"github.com/zenazn/goji/web"
 	"github.com/zenazn/goji/web/middleware"
 )

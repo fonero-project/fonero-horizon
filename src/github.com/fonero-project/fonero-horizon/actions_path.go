@@ -1,9 +1,9 @@
 package horizon
 
 import (
-	"github.com/fonero-project/horizon/paths"
-	"github.com/fonero-project/horizon/render/hal"
-	"github.com/fonero-project/horizon/resource"
+	"github.com/fonero-project/fonero-horizon/paths"
+	"github.com/fonero-project/fonero-horizon/render/hal"
+	"github.com/fonero-project/fonero-horizon/resource"
 )
 
 // PathIndexAction provides path finding

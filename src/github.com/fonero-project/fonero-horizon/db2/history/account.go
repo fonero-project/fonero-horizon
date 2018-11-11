@@ -2,7 +2,7 @@ package history
 
 import (
 	sq "github.com/Masterminds/squirrel"
-	"github.com/fonero-project/horizon/db2"
+	"github.com/fonero-project/fonero-horizon/db2"
 )
 
 // Accounts provides a helper to filter rows from the `history_accounts` table

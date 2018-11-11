@@ -1,9 +1,9 @@
 package ingest
 
 import (
-	"github.com/fonero-project/go/support/db"
-	"github.com/fonero-project/go/support/errors"
-	"github.com/fonero-project/horizon/db2/core"
+	"github.com/fonero-project/fonero-golang/support/db"
+	"github.com/fonero-project/fonero-golang/support/errors"
+	"github.com/fonero-project/fonero-horizon/db2/core"
 )
 
 // Load runs queries against `core` to fill in the records of the bundle.

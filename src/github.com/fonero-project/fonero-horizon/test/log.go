@@ -2,7 +2,7 @@ package test
 
 import (
 	"github.com/sirupsen/logrus"
-	"github.com/fonero-project/horizon/log"
+	"github.com/fonero-project/fonero-horizon/log"
 )
 
 var testLogger *log.Entry

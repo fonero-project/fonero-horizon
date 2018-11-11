@@ -1,7 +1,7 @@
 package history
 
 import (
-	"github.com/fonero-project/go/support/errors"
+	"github.com/fonero-project/fonero-golang/support/errors"
 )
 
 // Queue adds `seq` to the load queue for the cache.

@@ -1,7 +1,7 @@
 package resource
 
 import (
-	"github.com/fonero-project/go/xdr"
+	"github.com/fonero-project/fonero-golang/xdr"
 	"golang.org/x/net/context"
 )
 

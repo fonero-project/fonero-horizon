@@ -3,8 +3,8 @@ package ingest
 import (
 	"testing"
 
-	"github.com/fonero-project/go/network"
-	"github.com/fonero-project/horizon/test"
+	"github.com/fonero-project/fonero-golang/network"
+	"github.com/fonero-project/fonero-horizon/test"
 )
 
 func TestIngest(t *testing.T) {

@@ -4,9 +4,9 @@ package core
 
 import (
 	"github.com/guregu/null"
-	"github.com/fonero-project/go/strkey"
-	"github.com/fonero-project/go/support/db"
-	"github.com/fonero-project/go/xdr"
+	"github.com/fonero-project/fonero-golang/strkey"
+	"github.com/fonero-project/fonero-golang/support/db"
+	"github.com/fonero-project/fonero-golang/xdr"
 )
 
 // Account is a row of data from the `accounts` table

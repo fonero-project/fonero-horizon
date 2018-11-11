@@ -6,7 +6,7 @@ import (
 	"text/template"
 
 	"github.com/go-errors/errors"
-	"github.com/fonero-project/go/xdr"
+	"github.com/fonero-project/fonero-golang/xdr"
 )
 
 type orderbookQueryBuilder struct {

@@ -3,7 +3,7 @@ package horizon
 import (
 	"testing"
 
-	"github.com/fonero-project/horizon/test"
+	"github.com/fonero-project/fonero-horizon/test"
 )
 
 func TestAppInit(t *testing.T) {

@@ -4,14 +4,14 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/fonero-project/horizon/db2"
-	"github.com/fonero-project/horizon/db2/history"
-	"github.com/fonero-project/horizon/ledger"
-	"github.com/fonero-project/horizon/render/hal"
-	"github.com/fonero-project/horizon/render/problem"
-	"github.com/fonero-project/horizon/render/sse"
-	"github.com/fonero-project/horizon/resource"
-	"github.com/fonero-project/horizon/toid"
+	"github.com/fonero-project/fonero-horizon/db2"
+	"github.com/fonero-project/fonero-horizon/db2/history"
+	"github.com/fonero-project/fonero-horizon/ledger"
+	"github.com/fonero-project/fonero-horizon/render/hal"
+	"github.com/fonero-project/fonero-horizon/render/problem"
+	"github.com/fonero-project/fonero-horizon/render/sse"
+	"github.com/fonero-project/fonero-horizon/resource"
+	"github.com/fonero-project/fonero-horizon/toid"
 )
 
 // This file contains the actions:
