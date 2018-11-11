@@ -418,7 +418,7 @@
 		{
 			"importpath": "github.com/fonero-project/fonero-golang",
 			"repository": "https://github.com/fonero-project/fonero-golang",
-			"revision": "165d0af4cb611d438a618b2ef14ea935505908e3",
+			"revision": "ebafc48a11f9085d3bee00550fe8564561418ab4",
 			"branch": "master"
 		},
 		{
