@@ -422,6 +422,12 @@
 			"branch": "master"
 		},
 		{
+			"importpath": "github.com/fonero-project/fonero-golang-xdr",
+			"repository": "https://github.com/fonero-project/fonero-golang-xdr",
+			"revision": "a725d820c2494c89d2d0b8e4506b7aa74645e8b5",
+			"branch": "master"
+		},
+		{
 			"importpath": "github.com/stretchr/objx",
 			"repository": "https://github.com/stretchr/objx",
 			"revision": "1a9d0bb9f541897e62256577b352fdbc1fb4fd94",
