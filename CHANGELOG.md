@@ -19,7 +19,7 @@ bumps.  A breaking change will get clearly notified in this log.
 - The ingestion system can now properly import envelopes that contain signatures that are zero-length strings.
 - BREAKING CHANGE: specifying a `limit` of `0` now triggers an error instead of interpreting the value to mean "use the default limit".
 - Requests that ask for more records than the maximum page size now trigger a bad request error, instead of an internal server error.
-- Upstream bug fixes to xdr decoding from `github.com/stellar/go`.
+- Upstream bug fixes to xdr decoding from `github.com/fonero-project/fonero-golang`.
 
 ### Changed
 
@@ -31,7 +31,7 @@ bumps.  A breaking change will get clearly notified in this log.
 ## [v0.10.1] - 2017-03-29
 
 ### Fixed
-- Ingestion was fixed to protect against text memos that contain null bytes.  While memos with null bytes are legal in stellar-core, PostgreSQL does not support such values in string columns.  Horizon now strips those null bytes to fix the issue. 
+- Ingestion was fixed to protect against text memos that contain null bytes.  While memos with null bytes are legal in fonero-core, PostgreSQL does not support such values in string columns.  Horizon now strips those null bytes to fix the issue. 
 
 ## [v0.10.0] - 2017-03-20
 
@@ -56,12 +56,12 @@ This is a fix release for v0.9.0 and v0.9.1
 This release was retracted due to a bug discovered after release.
 
 ### Added
-- Horizon now exposes the stellar network protocol in several places:  It shows the currently reported protocol version (as returned by the stellar-core `info` command) on the root endpoint, and it reports the protocol version of each ledger resource.
+- Horizon now exposes the fonero network protocol in several places:  It shows the currently reported protocol version (as returned by the fonero-core `info` command) on the root endpoint, and it reports the protocol version of each ledger resource.
 - Trade resources now include a `created_at` timestamp.
 
 ### Fixed
 
-- BREAKING CHANGE: The reingestion process has been updated.  Prior versions of horizon would enter a failed state when a gap between the imported history and the stellar-core database formed or when a previously imported ledger was no longer found in the stellar-core database.  This usually occurs when running stellar-core with the `CATCHUP_RECENT` config option.  With these changed, horizon will automatically trim "abandonded" ledgers: ledgers that are older than the core elder ledger.
+- BREAKING CHANGE: The reingestion process has been updated.  Prior versions of horizon would enter a failed state when a gap between the imported history and the fonero-core database formed or when a previously imported ledger was no longer found in the fonero-core database.  This usually occurs when running fonero-core with the `CATCHUP_RECENT` config option.  With these changed, horizon will automatically trim "abandonded" ledgers: ledgers that are older than the core elder ledger.
 
 
 ## [v0.8.0] - 2017-02-07
@@ -113,14 +113,14 @@ This release was retracted due to a bug discovered after release.
 
 ## [v0.6.0] - 2016-07-20
 
-This release contains the initial implementation of the "Abridged History System".  It allows a horizon system to be operated without complete knowledge of the ledger's history.  With this release, horizon will start ingesting data from the earliest point known to the connected stellar-core instance, rather than ledger 1 as it behaved previously.  See the admin guide section titled "Ingesting stellar-core data" for more details.
+This release contains the initial implementation of the "Abridged History System".  It allows a horizon system to be operated without complete knowledge of the ledger's history.  With this release, horizon will start ingesting data from the earliest point known to the connected fonero-core instance, rather than ledger 1 as it behaved previously.  See the admin guide section titled "Ingesting fonero-core data" for more details.
 
 ### Added
 
-- *Elder* ledgers have been introduced:  An elder ledger is the oldest ledger known to a db.  For example, the `core_elder_ledger` attribute on the root endpoint refers to the oldest known ledger stored in the connected stellar-core database.
+- *Elder* ledgers have been introduced:  An elder ledger is the oldest ledger known to a db.  For example, the `core_elder_ledger` attribute on the root endpoint refers to the oldest known ledger stored in the connected fonero-core database.
 - Added the `history-retention-count` command line flag, used to specify the amount of historical data to keep in the history db.  This is expressed as a number of ledgers, for example a value of `362880` would retain roughly 6 weeks of data given an average of 10 seconds per ledger.
 - Added the `history-stale-threshold` command line flag to enable stale history protection.  See the admin guide for more info.
-- Horizon now reports the last ledger ingested to stellar-core using the `setcursor` command.
+- Horizon now reports the last ledger ingested to fonero-core using the `setcursor` command.
 - Requests for data that precede the recorded window of history stored by horizon will receive a `410 Gone` http response to allow software to differentiate from other "not found" situations.
 - The new `db reap` command will manually trigger the deletion of unretained historical data
 - A background process on the server now deletes unretained historical once per hour.
@@ -150,7 +150,7 @@ This release contains the initial implementation of the "Abridged History System
 
 ### Added
 
-- BREAKING: Horizon can now import data from stellar-core without the aid of the horizon-importer project.  This process is now known as "ingestion", and is enabled by either setting the `INGEST` environment variable to "true" or specifying "--ingest" on the launch arguments for the horizon process.  Only one process should be running in this mode for any given horizon database.
+- BREAKING: Horizon can now import data from fonero-core without the aid of the horizon-importer project.  This process is now known as "ingestion", and is enabled by either setting the `INGEST` environment variable to "true" or specifying "--ingest" on the launch arguments for the horizon process.  Only one process should be running in this mode for any given horizon database.
 - Add `horizon db init`, used to install the latest bundled schema for the horizon database.
 - Add `horizon db reingest` command, used to update outdated or corrupt horizon database information.  Admins may now use `horizon db reingest outdated` to migrate any old data when updated horizon.
 - Added `network_passphrase` field to root resource.
@@ -189,22 +189,3 @@ This release contains the initial implementation of the "Abridged History System
 
 ### Added
 - Github releases are created from tagged travis builds automatically
-
-[Unreleased]: https://github.com/stellar/horizon/compare/v0.11.0...master
-[v0.11.0]: https://github.com/stellar/horizon/compare/v0.10.1...v0.11.0
-[v0.10.1]: https://github.com/stellar/horizon/compare/v0.10.0...v0.10.1
-[v0.10.0]: https://github.com/stellar/horizon/compare/v0.9.1...v0.10.0
-[v0.9.1]: https://github.com/stellar/horizon/compare/v0.9.0...v0.9.1
-[v0.9.0]: https://github.com/stellar/horizon/compare/v0.8.0...v0.9.0
-[v0.8.0]: https://github.com/stellar/horizon/compare/v0.7.1...v0.8.0
-[v0.7.1]: https://github.com/stellar/horizon/compare/v0.7.0...v0.7.1
-[v0.7.0]: https://github.com/stellar/horizon/compare/v0.6.2...v0.7.0
-[v0.6.2]: https://github.com/stellar/horizon/compare/v0.6.1...v0.6.2
-[v0.6.1]: https://github.com/stellar/horizon/compare/v0.6.0...v0.6.1
-[v0.6.0]: https://github.com/stellar/horizon/compare/v0.5.1...v0.6.0
-[v0.5.1]: https://github.com/stellar/horizon/compare/v0.5.0...v0.5.1
-[v0.5.0]: https://github.com/stellar/horizon/compare/v0.4.0...v0.5.0
-[v0.4.0]: https://github.com/stellar/horizon/compare/v0.3.0...v0.4.0
-[v0.3.0]: https://github.com/stellar/horizon/compare/v0.2.0...v0.3.0
-[v0.2.0]: https://github.com/stellar/horizon/compare/v0.1.1...v0.2.0
-[v0.1.1]: https://github.com/stellar/horizon/compare/v0.1.0...v0.1.1

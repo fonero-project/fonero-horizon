@@ -416,8 +416,8 @@
 			"branch": "master"
 		},
 		{
-			"importpath": "github.com/stellar/go",
-			"repository": "https://github.com/stellar/go",
+			"importpath": "github.com/fonero-project/fonero-golang",
+			"repository": "https://github.com/fonero-project/fonero-golang",
 			"revision": "165d0af4cb611d438a618b2ef14ea935505908e3",
 			"branch": "master"
 		},
