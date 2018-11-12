@@ -270,7 +270,7 @@
 		{
 			"importpath": "github.com/lib/pq",
 			"repository": "https://github.com/lib/pq",
-			"revision": "a8d8d01c4f91602f876bf5aa210274e8203a6b45",
+			"revision": "9eb73efc1fcc404148b56765b0d3f61d9a5ef8ee",
 			"branch": "master"
 		},
 		{
